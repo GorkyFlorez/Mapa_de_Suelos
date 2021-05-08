@@ -157,7 +157,7 @@ M<-leaflet() %>%
 # Gardar el mapa
 
 htmlwidgets::saveWidget(M, "Mapa de Suelo de Madre de Dios.html")
-
+saveWidget ( M , file = "index.html" )
 
 
 
